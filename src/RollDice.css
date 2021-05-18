@@ -1,0 +1,19 @@
+.RollDice-dices {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+    margin-top: 4rem;
+}
+
+.RollDice-btn {
+    padding: 2rem 5rem;
+    font-size: 20px;
+    color: #fbfbff;
+    background-color: #b80c09;
+    border: none;
+    border-radius: 10px;
+}
+
+.RollDice-btn:active {
+    transform: scale(0.98);
+}
