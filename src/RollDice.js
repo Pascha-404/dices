@@ -19,7 +19,7 @@ class RollDice extends Component{
             setTimeout(() => {
                 this.setState({btnTxt: "Roll Dice!", isRolling: false})
                 this.setState({dice1: die1, dice2: die2});
-            }, 600); 
+            }, 1000); 
         };
 
     render(){
